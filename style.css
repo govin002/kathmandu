@@ -1,0 +1,131 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    line-height: 1.8em;
+}
+
+.pimage1{
+    background-image: url(images/imag1.jpg);
+    min-height: 100%;
+  
+}
+
+.pimage2{
+    background-image: url(images/imag2.jpg);
+    min-height: 500px;
+}
+
+.pimage3{
+    background-image: url(images/imag3.jpg);
+    min-height: 500px;
+}
+
+.pimage1,.pimage2,.pimage3{
+    position: relative;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
+}
+
+
+
+
+.ptext{
+    position:absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+   
+    font-weight: bold;
+    font-family: "Edu NSW ACT Foundation", cursive;
+
+}
+
+.textBg{
+   
+
+    color: #fff;
+    padding: 20px;
+    font-size: 40px;
+   
+}
+
+
+
+h2{
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-weight: 800;
+    background-color:  rgb(0, 0, 0.5);
+   
+}
+.section{
+
+padding:50px 80px;
+text-align: justify;
+font-size: 20px;
+
+
+}
+.section-light{
+
+background-color:  rgb(0, 0, 0.5);
+color:#fff  ;
+
+}
+
+.section-dark{
+
+    background-color:  rgb(0, 0, 0.5);
+    color:#fff ;
+}
+
+
+footer{
+    min-height: 200px;
+    background: #000
+
+}
+
+h3{
+   color: #393333;
+  margin-top:0px;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 5px;
+  
+}
+footer{
+    background-color: #fff;
+    padding-top: 30px;
+   
+}
+
+.pfooter{
+   
+    color: #000;
+    text-align: center;
+    font-size: 20px;
+}
+.cfooter{
+    color: #000;
+    text-align: center;
+    
+    margin-bottom: 1px;
+}
+
+.img{
+    
+ 
+    display: flex;
+    justify-content:space-evenly;
+    align-content:space-around;
+ 
+}
